@@ -39,7 +39,7 @@ def vector_store(text_chunks):
 def get_conversational_chain(tools,ques):
     #os.environ["ANTHROPIC_API_KEY"]=os.getenv["ANTHROPIC_API_KEY"]
     #llm = ChatAnthropic(model="claude-3-sonnet-20240229", temperature=0, api_key=os.getenv("ANTHROPIC_API_KEY"),verbose=True)
-    llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0, api_key="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")
+    llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0, api_key="")
     prompt = ChatPromptTemplate.from_messages(
     [
         (
@@ -97,4 +97,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
