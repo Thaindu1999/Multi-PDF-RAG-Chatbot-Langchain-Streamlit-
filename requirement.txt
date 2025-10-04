@@ -1,0 +1,9 @@
+streamlit
+PyPDF2
+langchain
+faiss-cpu
+spacy
+python-dotenv
+langchain-openai
+langchain-anthropic
+spacy[en_core_web_sm]
